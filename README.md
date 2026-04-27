@@ -54,27 +54,6 @@ See how additional monthly payments may reduce interest.
 
 ---
 
-## Project Files
-
-```bash
-index.html
-bond.html
-vehicle-finance.html
-affordability.html
-extra-payment.html
-
-about.html
-privacy-policy.html
-contact.html
-disclaimer.html
-
-style.css
-script.js
-README.md
-```
-
----
-
 ## Technologies Used
 
 - HTML5
@@ -116,45 +95,6 @@ Always verify figures with your bank or credit provider.
 
 ---
 
-## Google AdSense Friendly Structure
-
-This project includes pages commonly expected for monetized informational sites:
-
-- About Us
-- Privacy Policy
-- Contact
-- Disclaimer
-
-Designed to support:
-
-- AdSense approval readiness
-- Organic SEO traffic
-- Financial affiliate monetization
-
----
-
-## Deployment
-
-Deploy free using:
-
-### GitHub Pages
-Upload repository and enable Pages.
-
-### Cloudflare Pages
-Connect GitHub repository and publish globally.
-
----
-
-## Roadmap
-
-Planned upgrades:
-
-- Debt payoff planner
-- Interest comparison tool
-- South African bank comparison rates
-- Premium budgeting dashboard
-
----
 
 ## License
 

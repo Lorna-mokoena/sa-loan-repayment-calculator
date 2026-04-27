@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>South Africa Loan Repayment Calculator</title>
+<meta name="description" content="Free South African loan repayment calculator for personal loans, car finance and home loans.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="bond.html">Bond</a>
+<a href="vehicle-finance.html">Vehicle</a>
+<a href="affordability.html">Affordability</a>
+<a href="extra-payment.html">Savings</a>
+<a href="about.html">About</a>
+</nav>
+<header>
+<h1>South Africa Loan Repayment Calculator</h1>
+<p>Calculate monthly repayments instantly.</p>
+</header>
+
+<div class="calculator">
+<section>
+
+<h2>How Loan Repayments Work In South Africa</h2>
+
+<p>
+South African loan repayments are usually calculated
+using reducing balance interest.
+</p>
+
+<h2>How To Reduce Interest Costs</h2>
+
+<p>
+Extra payments reduce principal faster
+and may save thousands in interest.
+</p>
+
+<h2>What Affects Your Loan Approval</h2>
+
+<ul>
+<li>Credit score</li>
+<li>Income</li>
+<li>Debt ratio</li>
+<li>Deposit size</li>
+</ul>
+
+</section>
+<label>Loan Amount (R)</label>
+<input id="loanAmount" type="number" placeholder="100000">
+
+<label>Interest Rate (%)</label>
+<input id="interestRate" type="number" placeholder="12">
+
+<label>Loan Term (Months)</label>
+<input id="loanTerm" type="number" placeholder="60">
+
+<button onclick="calculateLoan()">
+Calculate Repayment
+</button>
+
+<div id="results">
+<h2>Results</h2>
+<p id="monthly"></p>
+<p id="totalPay"></p>
+<p id="interestPaid"></p>
+</div>
+
+</div>
+
+<section class="content">
+<h2>Loan Guides</h2>
+
+<h3>How loan repayments work in South Africa</h3>
+<p>
+Use this calculator to estimate repayments using reducing balance interest.
+</p>
+
+<h3>Ways to save interest</h3>
+<p>
+Pay extra toward principal monthly to reduce total interest.
+</p>
+
+</section>
+
+<footer>
+<p>Educational estimates only. Verify with lender.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

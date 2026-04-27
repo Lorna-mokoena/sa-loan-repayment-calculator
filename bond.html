@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SA Bond Repayment Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>South African Bond Calculator</h1>
+
+<div class="calculator">
+
+<label>Home Loan Amount</label>
+<input id="loanAmount" type="number">
+
+<label>Interest Rate %</label>
+<input id="interestRate" type="number">
+
+<label>Bond Term (Months)</label>
+<input id="loanTerm" type="number">
+
+<button onclick="calculateLoan()">
+Calculate Bond Repayment
+</button>
+
+<div id="results">
+<p id="monthly"></p>
+<p id="totalPay"></p>
+<p id="interestPaid"></p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
